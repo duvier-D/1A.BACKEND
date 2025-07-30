@@ -62,8 +62,8 @@ class TrabajadorOut(TrabajadorBase):
     }
 
 class AsignarUsuarioCreate(BaseModel):
-    usuario_id: str   # username
-    trabajador_id: str  # cedula
+    usuario_id: str   
+    trabajador_id: str  
 
 class AsignarUsuarioOut(BaseModel):
     id: int
